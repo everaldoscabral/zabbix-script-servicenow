@@ -167,7 +167,7 @@ def createincident(incident):
             priority            = incident['priority'],
             category            = incident['category'],
             subcategory         = incident['subcategory'],
-            caller              = incident['caller'],
+            caller_id           = incident['caller'],
             assignment_group    = incident['assignment_group'],
             configuration_item  = incident['configuration_item'],
             short_description   = incident['short_description'],
