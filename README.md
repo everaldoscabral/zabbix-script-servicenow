@@ -30,7 +30,7 @@ Type: Script
 Script name: zabbix-create-service-now-incident.py
 ```
 ![1](https://github.com/everaldoscabral/zabbix-script-servicenow/blob/master/img/1.PNG?raw=true)
-(https://github.com/everaldoscabral/zabbix-script-servicenow/blob/master/img/2.PNG?raw=true)
+!(https://github.com/everaldoscabral/zabbix-script-servicenow/blob/master/img/2.PNG?raw=true)
 
 
 2.) Modify the Media for the Admin user [Administration > Users]
