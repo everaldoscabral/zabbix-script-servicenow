@@ -15,7 +15,7 @@ Copy the `zabbix-create-service-now-incident.py` script into the `AlertScriptsPa
 directory which is by default `/usr/lib/zabbix/alertscripts` and make it executable:
 
     $ cd /usr/lib/zabbix/alertscripts
-    $ wget https://raw.github.com/monitoringartist/zabbix-script-servicenow/master/zabbix-create-service-now-incident.py 
+    $ wget https://github.com/everaldoscabral/zabbix-script-servicenow/raw/master/zabbix-create-service-now-incident.py 
     $ chmod 755 zabbix-create-service-now-incident.py
 
 # Configuration
