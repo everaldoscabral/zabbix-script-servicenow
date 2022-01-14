@@ -162,6 +162,7 @@ def createincident(incident):
         server.config.dumpSOAPOut = debug
         server.config.dumpSOAPIn = debug
         response = server.insert(
+            contact_type        = "monitoring",
             impact              = incident['impact'],
             urgency             = incident['urgency'],
             priority            = incident['priority'],
@@ -171,7 +172,7 @@ def createincident(incident):
             assignment_group    = incident['assignment_group'],
             configuration_item  = incident['configuration_item'],
             short_description   = incident['short_description'],
-            additional_comments = incident['additional_comments']
+            description = incident['additional_comments']
         )
         return response
 
