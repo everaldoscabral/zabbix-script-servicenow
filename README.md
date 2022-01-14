@@ -70,7 +70,7 @@ Zabbix event ID: {EVENT.ID}
 Zabbix web UI: https://zabbix.domain.com/zabbix
 ```
 
-For a full list of trigger macros see https://www.zabbix.com/documentation/2.4/manual/appendix/macros/supported_by_location
+For a full list of trigger macros see https://www.zabbix.com/documentation/5.0/en/manual/appendix/macros/supported_by_location
 
 At the Conditions tab, to only forward PROBLEM events:
 
