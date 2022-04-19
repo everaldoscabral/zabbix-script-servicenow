@@ -16,6 +16,16 @@ category  = 'Category'        # Category of incident
 scategory = 'Subcategory'     # Subcategory of incident
 
 import sys
+if sys.version_info < (3, 0):
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+    import ConfigParser
+    conf = ConfigParser
+else:
+    import configparser
+    conf = configparser
+
+import sys
 if len(sys.argv) < 3:
     print """
 Incorrect usage of Create Service-Now incident from Zabbix script
